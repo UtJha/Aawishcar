@@ -1,0 +1,228 @@
+.bookADemo>h2{
+    background: #FFD233;
+    width: 100%;
+    padding: 1rem;
+    color: black;
+    font-family: 'Inter';
+    margin: 0;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 900;
+}
+.aboutDemo>.heading{
+    width: 50%;
+    padding: 5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.aboutDemo>.heading>h4{
+    font-weight: 600;
+    font-size: 33px;
+}
+.aboutDemo>.heading>a,
+.bookBtnMob{
+    background: #FFC700;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    width: 125px;
+    margin: 1.4rem 0;
+}
+.bookBtnMob{
+    display: none;
+}
+.aboutDemo>.pointers{
+    width: 50%;
+    padding: 5rem 2rem;
+}
+.aboutDemo>.pointers>.d-flex{
+    align-items: flex-start;
+    width: 95%;
+    margin-bottom: 0.8rem;
+}
+.aboutDemo>.pointers>.d-flex>img{
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.aboutDemo>.pointers>.d-flex>h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #6B717E;
+    margin: 0;
+}
+.contactUs>.details{
+    width: 50%;
+    background: #1B1B1B;
+    color: white;
+    padding: 4rem 5rem;
+}
+.contactUs>.details>h3{
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 48px;
+}
+.contactUs>.details>p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #3D3D3D;
+}
+.contactUs>.details>.socialicons>img{
+    margin-right: 10px;
+}
+.form{
+    width: 50%;
+    background: #FFD233;
+    padding:  4rem 3rem 0rem 2rem;
+}
+.form>form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-flow: wrap;
+}
+.form>form>div>label,
+#dailyCarWash>div>label{
+    font-weight: 600;
+    font-size: 15px;
+}
+.form>form>div>input,
+.form>form>div>select,
+#dailyCarWash>div>input,
+#dailyCarWash>div>select{
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0.7rem;
+    width: 100%;
+    color: #43474f;
+}
+.form>form>button{
+    background: #1B1B1B;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    width: 125px;
+    margin: 1.4rem 0;
+}
+.form>form>.form-group,
+#dailyCarWash>.form-group{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-right: 2rem;
+}
+.aboutDemo>.heading>button:focus-visible,
+.aboutDemo>.heading>button:focus,
+.form>form>button,
+.form>form>div>input,
+.form>form>div>select{
+    outline: none;
+}
+
+#dailyCarWash{
+    display: none;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#status{
+    display: none;
+    text-align: center;
+}
+
+@media screen and (max-width:900px) {
+    .aboutDemo>.heading{
+        padding: 5rem 3rem;
+    }
+    .contactUs{
+        flex-direction: column;
+    }
+    .contactUs>.details,
+    .form{
+        width: 100%;
+    }
+    .form{
+        padding: 4rem 3rem 5rem 2rem;
+    }
+}
+@media screen and (max-width:650px){
+    .bookADemo>h2{
+        font-size: 25px;
+    }
+.aboutDemo{
+    flex-direction: column;
+}
+.aboutDemo>.heading{
+    padding: 2rem 1rem;
+    width: 100%;
+    padding-bottom: 0;
+}
+.aboutDemo>.heading>h4{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.heading>h4>br{
+    display: none;
+}
+.aboutDemo>.pointers{
+    width: 100%;
+    padding: 1rem;
+    padding-top: 0;
+}
+.contactUs>.details>h3{
+    font-size: 25px;
+}
+.contactUs>.details{
+    padding:3rem 1.5rem;
+}
+.form{
+    padding: 4rem 1.5rem 5rem 1.5rem;
+}
+.form>form{
+    flex-flow: column;
+}
+.form>form>.form-group{
+    width: 100%;
+    padding-right: 0;
+}
+.form>form>button{
+    padding: 0.9rem 1rem;
+    font-size: 14px;
+    width: 150px;
+    margin: 1.4rem 0;
+}
+
+.bookBtnMob{
+    display: initial;
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    width: 160px;
+    padding: 0.6rem 1rem;
+    font-size: 14px;
+}
+.aboutDemo>.heading>a{
+    display: none;
+}
+}
